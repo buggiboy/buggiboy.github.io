@@ -1,0 +1,13 @@
+/* Color palette: https://coolors.co/495867-577399-bdd5ea-f7f7ff-fe5f55 */
+
+:root {
+	--main-bg-color:#495867;
+	--header-color:#577399;
+	--text-color:#F7F7FF;
+	--body-color:#BDD5EA;
+	--highlight-color:#FE5F55;
+}
+
+body {
+	text-align:center;
+}
