@@ -6,14 +6,37 @@
 	--text-color:#F7F7FF;
 	--body-color:#BDD5EA;
 	--highlight-color:#FE5F55;
+	--header-font:'Ubuntu', sans-serif;
+	--body-font:'Roboto', sans-serif;
 }
 
 body {
+	font-family:var(--body-font);
 	text-align:center;
 	background-color:var(--main-bg-color);
 	color:var(--text-color);
 }
 
 header {
+	font-family:var(--header-font);
 	background-color:var(--header-color);
+	padding:1em;
+	width:70%;
+	margin:auto;
+}
+
+footer {
+	background-color:var(--header-color);
+}
+
+nav {
+	padding:1em;
+}
+
+nav > a {
+	background-color:var(--highlight-color);
+	padding:1em;
+	margin:1em;
+	text-decoration:none;
+	color:var(--text-color);
 }
