@@ -10,4 +10,10 @@
 
 body {
 	text-align:center;
+	background-color:var(--main-bg-color);
+	color:var(--text-color);
+}
+
+header {
+	background-color:var(--header-color);
 }
