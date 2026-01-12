@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f5f5dc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #f5f5dc;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #f5f5dc;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#projects {
+    text-align: center;
+}
+
+#project-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#project-tiles .tile {
+    background-color: #333;
+    color: #f5f5dc;
+    border: 2px solid #f5f5dc;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+footer {
+    background-color: #333;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
